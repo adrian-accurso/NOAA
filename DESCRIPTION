@@ -5,7 +5,7 @@ Authors@R:
     person("Adrian", "Accurso", , "adrian.accurso@gmail.com", role = c("aut", "cre"))
 Description: This is the Earthquake Package, Capstone Project of Masterting Software Development in R
 Depends:
-  R(>=4.2.1)
+  R(>= 4.2.1)
 License: CC0
 Imports: dplyr,ggplot2,readr,grid,lubridate,leaflet,scales,testthat
 Encoding: UTF-8
