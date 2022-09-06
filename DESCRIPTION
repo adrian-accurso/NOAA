@@ -1,0 +1,18 @@
+Package: NOAA
+Title: Week 4, 5, and 6 of Coursera Mastering Software Development in R
+Version: 1.0.0
+Authors@R: 
+    person("Adrian", "Accurso", , "adrian.accurso@gmail.com", role = c("aut", "cre"))
+Description: This is the Earthquake Package, Capstone Project of Masterting Software Development in R
+Depends:
+  R(>=4.2.1)
+License: CC0
+Imports: dplyr,ggplot2,readr,grid,lubridate,leaflet,scales,testthat
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
