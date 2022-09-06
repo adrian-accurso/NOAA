@@ -1,2 +1,4 @@
 ^NOAA\.Rproj$
 ^\.Rproj\.user$
+^\.travis\.yml$
+^\.github$
