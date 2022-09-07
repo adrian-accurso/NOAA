@@ -2,7 +2,7 @@
 % Please edit documentation in R/timeline_geom_functions_week2.R
 \name{geom_timeline}
 \alias{geom_timeline}
-\title{Creates a timeline plot of earthquakes}
+\title{Creates a timeline plot of earthquakes using ggplot2}
 \usage{
 geom_timeline(
   mapping = NULL,
@@ -63,7 +63,7 @@ to the paired geom/stat.}
 }
 \description{
 This geom plots a timeline of earthquakes in one line with
-options to group by country, color by number of casualties and size by scale
+options to group by country and colors the number of casualties for scale of quake
 }
 \details{
 The function creates a plot of timeline of earthquakes based on cleaned NOAA

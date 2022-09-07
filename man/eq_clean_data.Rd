@@ -26,7 +26,7 @@ the country and transforming to title case.
 }
 \examples{
 \dontrun{
-data <- readr::read_delim("earthquakes.tsv.gz", delim = "\t")
+data <- readr::read_delim("earthquakes.txt", delim = "\t")
 clean_data <- eq_clean_data(data)
 }
 

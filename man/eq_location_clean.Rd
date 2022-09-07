@@ -24,7 +24,7 @@ The function is not exported
 }
 \examples{
 \dontrun{
-raw_data <- readr::read_delim("data.gz", delim = "\t")
+raw_data <- readr::read_delim("earthquakes.txt", delim = "\t")
 clean_data <- eq_location_clean(raw_data)
 }
 
