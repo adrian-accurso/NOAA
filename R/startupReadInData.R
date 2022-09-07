@@ -2,6 +2,7 @@
 setwd("~/Desktop/Coursera Capstone Project")
 library(magrittr)
 library(tidyverse)
+install.packages('terra', repos='https://rspatial.r-universe.dev')
 install.packages("leaflet")
 library(leaflet)
 data <- readr::read_delim("earthquakesFile2.txt", delim = "\t")
