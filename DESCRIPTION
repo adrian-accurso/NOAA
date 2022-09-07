@@ -7,7 +7,7 @@ Description: This is the Earthquake Package, Capstone Project of Masterting Soft
 Depends:
   R(>= 4.2.1)
 License: CC0
-Imports: dplyr,ggplot2,readr,grid,lubridate,leaflet,scales,testthat
+Imports: dplyr,ggplot2,readr,grid,lubridate,terra,scales,testthat
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1

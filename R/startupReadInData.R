@@ -3,7 +3,6 @@ setwd("~/Desktop/Coursera Capstone Project")
 library(magrittr)
 library(tidyverse)
 install.packages('terra', repos='https://rspatial.r-universe.dev')
-install.packages("leaflet")
 library(leaflet)
 data <- readr::read_delim("earthquakesFile2.txt", delim = "\t")
 
@@ -18,10 +17,6 @@ data %>% eq_clean_data() %>%
     geom_timeline() +
     theme_timeline() +
     labs(size = "Richter scale value", color = "# deaths")
-
-
-install.packages("leaflet")
-library(leaflet)
 
 
 readr::read_delim("earthquakesFile2.txt", delim = "\t") %>%
