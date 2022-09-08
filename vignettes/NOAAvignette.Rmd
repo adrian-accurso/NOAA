@@ -1,5 +1,5 @@
 ---
-title: "NOAA vignette Mastering Software Development in R Capstone"
+title: "NOAAvignette"
 author: "Adrian Accurso"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
