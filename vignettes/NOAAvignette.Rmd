@@ -9,19 +9,6 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
-```
-
-After installing the package with install.packages("NOAA"), load the library with the following command:
-
-```{r setup}
-library(NOAA)
-```
-
 ```{r, echo = FALSE, include = FALSE}
 library(NOAA)
 library(dplyr)
