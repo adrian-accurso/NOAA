@@ -63,7 +63,7 @@ Please find a short description with examples on how to use the functions. The e
 The first function is used to clean data for the visualization and so that the category names are consistent with later used functions. It creates a DATE column in `Date` format, transforms latitude and longitude to numeric format and trims country from LOCATION_NAME.
 
 ```{r eq_read_example, message = FALSE}
-file_name <- system.file("vignettes/earthquakesFile2.txt", package = "NOAA")
+file_name <- system.file("importeddata/earthquakesFile2.txt", package = "NOAA")
 data <- readr::read_delim(file_name, delim = "\t")
 eq_clean_data(data)
 ```
