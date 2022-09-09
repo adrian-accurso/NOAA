@@ -1,8 +1,7 @@
 library(testthat)
 context("Test functions in the package")
 
-file_name <- system.file("vignettes/earthquakesFile2.txt", package = "NOAA")
-raw_data <- readr::read_delim(file_name, delim = "\t")
+raw_data <- readr::read_delim("earthquakesFile2.txt", delim = "\t")
 
 test_that("eq_clean_data returns a 'data.frame' object", {
   expect_is(eq_clean_data(raw_data), "data.frame")
